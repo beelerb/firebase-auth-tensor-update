@@ -36,9 +36,7 @@ class MyHomePage extends StatelessWidget {
           stream: FirebaseAuth.instance.currentUser().asStream(),
           builder: (BuildContext context, AsyncSnapshot<FirebaseUser> snapshot) {
             if (!snapshot.hasData) {
-              return Container(
-                  margin: EdgeInsets.symmetric(horizontal: 14.0),
-                  child: new LinearProgressIndicator());
+              return Container();
             }
             if (snapshot.hasData) {
               return FloatingActionButton(

@@ -6,6 +6,7 @@ This is an updated codebase reflecting the latest libraries for tensor prgrammin
 If you're looking for keytool on Windows: `"C:\Program Files\Android\Android Studio\jre\bin\keytool" -list -v -alias androiddebugkey -keystore %USERPROFILE%\.android\debug.keystore`
 
 video: https://youtu.be/ZNt_e5ojGzQ
+tensor programming's channel: https://www.youtube.com/channel/UCYqCZOwHbnPwyjawKfE21wg
 
 
 ```

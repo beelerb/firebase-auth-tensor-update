@@ -28,12 +28,16 @@ defaultConfig {
         multiDexEnabled true
  }
  dependencies {
+    ...
     implementation 'com.google.firebase:firebase-core:16.0.9'
     implementation 'com.google.firebase:firebase-auth:16.1.0'
     implementation 'com.android.support:multidex:1.0.3'
+    ...
 }
 
 ../android/gradle.properties:
+...
 android.useAndroidX=true
 android.enableJetifier=true
+...
 ```

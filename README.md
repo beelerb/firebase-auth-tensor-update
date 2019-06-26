@@ -9,6 +9,8 @@ video: https://youtu.be/ZNt_e5ojGzQ
 
 tensor programming's channel: https://www.youtube.com/channel/UCYqCZOwHbnPwyjawKfE21wg
 
+Thanks tensor for a great channel.
+
 
 ```
 pubspec.yaml:

@@ -31,7 +31,7 @@ class MyHomePage extends StatelessWidget {
           if (!snapshot.hasData) return CircularProgressIndicator();
           return FirestoreListView(documents: snapshot.data.documents);
         },
-      ),
+      ), 
       floatingActionButton: StreamBuilder(
           stream: FirebaseAuth.instance.currentUser().asStream(),
           builder: (BuildContext context, AsyncSnapshot<FirebaseUser> snapshot) {

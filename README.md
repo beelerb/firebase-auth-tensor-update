@@ -3,7 +3,7 @@
 
 This is an updated codebase reflecting the latest `firebase_auth` library for tensor prgramming's excellent video on the subject. It corrects the error with `_googleSignIn.signIn()` in `api.dart`. I also added `!snapshot.hasData` and `snapshot.hasData` to the `NetworkImage(snapshot.data.photoUrl)` StreamBuilder in `home.dart` to avoid errors.
 
-If you're looking for keytool on Windows: `"C:\Program Files\Android\Android Studio\jre\bin\keytool" -list -v -alias androiddebugkey -keystore %USERPROFILE%\.android\debug.keystore`
+If you're looking for keytool on Windows: `"C:\Program Files\Android\Android Studio\jre\bin\keytool" -list -v -alias androiddebugkey -keystore %USERPROFILE%\.android\debug.keystore`. Location on Mac: `keytool -list -v -alias androiddebugkey -keystore /Users/YOUR_USER_NAME/.android/debug.keystore`
 
 video: https://youtu.be/ZNt_e5ojGzQ
 

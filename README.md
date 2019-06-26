@@ -1,5 +1,5 @@
 # firebase-auth-tensor-update
-"Authenticating Users with Google in Firebase and Firestore inside of Dart's Flutter Framework" UPDATE
+"Authenticating Users with Google in Firebase and Firestore inside of Dart's Flutter Framework" **UPDATE**
 
 This is an updated codebase reflecting the latest libraries for tensor prgramming's excellent video on the subject. It corrects the error with `_googleSignIn.signIn()` in `api.dart`. I also added `!snapshot.hasData` and `snapshot.hasData` into `home.dart` to avoid errors.
 
